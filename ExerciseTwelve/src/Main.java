@@ -29,8 +29,8 @@ public class Main {
         numbers.add(3);
         System.out.println(numbers.get(0));
         numbers.remove(0);
-        numbers.remove(1);
-        numbers.remove(2);
+        numbers.remove(0);
+        numbers.remove(0);
         System.out.println(numbers.get(0));
     }
 
